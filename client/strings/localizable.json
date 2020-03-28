@@ -1,0 +1,15 @@
+{
+    "copyright": "Copyright © 2020 All rights reserved",
+    "poweredBy": "Powered by Lentra",
+    "usernameLbl": "UserName",
+    "usernamePlaceHolder": "Enter UserName..",
+    "passwordLbl": "Password",
+    "emailLbl": "Email",
+    "emailPlaceHolder": "Enter Email..",
+    "passwordPlaceHolder": "Enter Password..",
+    "submitBtnLbl": "Login",
+    "error_required": "This field is required",
+    "error_minlength": "Minimum 5 characters required",
+    "error_maxlength": "Maximum 20 characters reached",
+    "error_email": "Email is not a valid format"
+}

@@ -1,0 +1,37 @@
+{
+    "parent": "",
+    "layout": [{
+        "viewId": 1,
+        "viewType": "stackView",
+        "orientation": "vertical",
+        "percentages": [25, 55, 20],
+        "childs": [{
+                "viewId": 2,
+                "viewType": "imageView",
+                "properties": "name:banner|image:client/assets/logo.png|highlight:null|isUserInteraction:false",
+                "style": "alpha:1|bgColor:#ffffff|borderColor:null|radius:null|align:center"
+            },
+            {
+                "viewId": 3,
+                "viewType": "space"
+            },
+            {
+                "viewId": 4,
+                "viewType": "stackView",
+                "orientation": "vertical",
+                "percentages": [60, 40],
+                "childs": [{
+                        "viewId": 5,
+                        "viewType": "space"
+                    },
+                    {
+                        "viewId": 7,
+                        "viewType": "label",
+                        "properties": "name:copyright1|displayText:$c->copyright",
+                        "style": "alpha:1|fontsize:16|textColor:#424949|bgColor:null|borderColor:null|radius:null|align:center"
+                    }
+                ]
+            }
+        ]
+    }]
+}
